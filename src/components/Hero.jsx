@@ -52,7 +52,7 @@ const Hero = () => {
                             alt="Profile Pic"
                             className="rounded-lg" // Tailwind CSS for size and partially rounded borders
                         />
-                        <button className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-[#422E5F] text-white w-48 h-8 rounded-full box-border hover:bg-[#593C7D]">
+                        <button className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-[#222233] text-white w-48 h-8 rounded-full box-border hover:bg-[#593C7D]">
                             Resume
                         </button>
                     </div>
