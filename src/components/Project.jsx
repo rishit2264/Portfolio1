@@ -10,12 +10,12 @@ const Project = () => {
             <div className="">{PROJECTS.map((project,index) => (
                 <div className="mb-8 flex flex-wrap lg:justify-center">
                     <div key={index} className="w-full lg:w-1/4">
-                    <img src={project.image}
+                    {/* <img src={project.image}
                     width={150}
                     height={150}
                     className='mb-6 rounded'
                     alt={Project.title} 
-                    />
+                    /> */}
                     </div>
                     <div className="w-full max-w-xl lg:w-3/4">
                     <h6 className="mb-2 font-semibold">{project.title}</h6>
