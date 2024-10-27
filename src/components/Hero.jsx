@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import profilePic from "../assets/Vedant Singh.jpeg"; // Corrected
+import profilePic from "../assets/Profile.jpg"; // Corrected
 
 import { HERO_CONTENT } from '../constants';
 
@@ -23,7 +23,7 @@ const Hero = () => {
                             initial="hidden"
                             animate="visible"
                             className='pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl'>
-                            Vedant Singh
+                            Rishit Vats
                         </motion.h1>
                         <motion.span
                             variants={container(0)}
@@ -31,7 +31,7 @@ const Hero = () => {
                             animate="visible"
                             className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 
                         bg-clip-text text-4xl tracking-tight text-transparent'>
-                            Full Stack Developer
+                            ML Developer
                         </motion.span>
                         <motion.p
                             variants={container(0)}
@@ -52,9 +52,12 @@ const Hero = () => {
                             alt="Profile Pic"
                             className="rounded-lg" // Tailwind CSS for size and partially rounded borders
                         />
-                        <button className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-[#222233] text-white w-48 h-8 rounded-full box-border hover:bg-[#593C7D]">
-                            Resume
-                        </button>
+                        <a href="https://drive.google.com/file/d/1x_X5M-TfQ8vCZ9uUDoiIKl6AhK5p_X_J/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+                            <button className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-[#222233] text-white w-48 h-8 rounded-full box-border hover:bg-[#593C7D]">
+                                Resume
+                            </button>
+                        </a>
+
                     </div>
 
 
